@@ -1,0 +1,38 @@
+@media (max-width: 576px) {
+  #navbar .search-bar {
+    display: none;
+  }
+  #navbar {
+    height: 150px;
+    display: block;
+    text-align: center;
+  }
+
+  #navbar ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  #navbar ul li {
+    width: 100%;
+    border-bottom: 1px dotted #ddd;
+  }
+  #tour-section .tour-content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #tour-section .tour-content .card:first-child {
+    grid-column: 1;
+  }
+
+  #contact-section .row {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  #contact-section .address {
+    margin-bottom: 1rem;
+  }
+  #footer-section .container {
+    flex-wrap: wrap;
+  }
+}
