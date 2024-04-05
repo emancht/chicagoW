@@ -25,9 +25,12 @@
   }
 
   #contact-section .row {
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    padding: 1rem;
+    display: block;
+  }
+
+  #contact-section .form-group {
+    display: block;
   }
   #contact-section .address {
     margin-bottom: 1rem;
