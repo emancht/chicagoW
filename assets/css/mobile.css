@@ -16,25 +16,16 @@
     width: 100%;
     border-bottom: 1px dotted #ddd;
   }
-  #tour-section .tour-content {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  #tour-section .tour-content .card:first-child {
-    grid-column: 1;
-  }
-
+  #band-section .row,
+  #tour-section .row,
   #contact-section .row {
-    padding: 1rem;
-    display: block;
+    flex-wrap: wrap;
+  }
+  #band-section .box,
+  #tour-section .card {
+    width: 100%;
   }
 
-  #contact-section .form-group {
-    display: block;
-  }
-  #contact-section .address {
-    margin-bottom: 1rem;
-  }
   #footer-section .container {
     flex-wrap: wrap;
   }

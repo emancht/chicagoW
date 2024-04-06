@@ -10,26 +10,22 @@
   </head>
   <body>
     <!-- Navbar  -->
-    <nav id="navbar">
-      <div class="nav">
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">Band</a>
-          </li>
-          <li>
-            <a href="#">Tour</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <button class="search-bar"><i class="bi bi-search"></i></button>
-      </div>
+    <nav id="navbar" class="p-1">
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Band</a>
+        </li>
+        <li>
+          <a href="#">Tour</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+      <button class="search-bar"><i class="bi bi-search"></i></button>
     </nav>
     <!-- Header  -->
     <header id="header-section">
@@ -84,48 +80,50 @@
             <em>Remember to book your tickets!</em>
           </p>
         </div>
-        <div class="tour-content py-1">
-          <div class="card bg-light p-1">
+        <div class="tour-content">
+          <div class="row bg-light">
             <ul>
               <li>September <span class="text-primary">Sold out</span></li>
               <li>October <span class="text-primary">Sold out</span></li>
               <li>November <i class="bi bi-3-circle-fill"></i></li>
             </ul>
           </div>
-          <div class="card bg-light">
-            <img src="./assets/images/tour_pic_1.jpg" alt="" />
-            <div class="card-text p-1">
-              <h4>New York</h4>
-              <h6>Fri 27 Nov 2016</h6>
-              <p class="py-1">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Architecto, nihil.
-              </p>
-              <a href="#" class="btn">Buy Tickets</a>
+          <div class="row">
+            <div class="card bg-light">
+              <img src="./assets/images/tour_pic_1.jpg" alt="" />
+              <div class="card-text p-1">
+                <h4>New York</h4>
+                <h6>Fri 27 Nov 2016</h6>
+                <p class="py-1">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Architecto, nihil.
+                </p>
+                <a href="#" class="btn">Buy Tickets</a>
+              </div>
             </div>
-          </div>
-          <div class="card bg-light">
-            <img src="./assets/images/tour_pic_1.jpg" alt="" />
-            <div class="card-text p-1">
-              <h4>New York</h4>
-              <h6>Fri 27 Nov 2016</h6>
-              <p class="py-1">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Architecto, nihil.
-              </p>
-              <a href="#" class="btn">Buy Tickets</a>
+            <div class="card bg-light">
+              <img src="./assets/images/tour_pic_1.jpg" alt="" />
+              <div class="card-text p-1">
+                <h4>New York</h4>
+                <h6>Fri 27 Nov 2016</h6>
+                <p class="py-1">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Architecto, nihil.
+                </p>
+                <a href="#" class="btn">Buy Tickets</a>
+              </div>
             </div>
-          </div>
-          <div class="card bg-light">
-            <img src="./assets/images/tour_pic_1.jpg" alt="" />
-            <div class="card-text p-1">
-              <h4>New York</h4>
-              <h6>Fri 27 Nov 2016</h6>
-              <p class="py-1">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Architecto, nihil.
-              </p>
-              <a href="#" class="btn">Buy Tickets</a>
+            <div class="card bg-light">
+              <img src="./assets/images/tour_pic_1.jpg" alt="" />
+              <div class="card-text p-1">
+                <h4>New York</h4>
+                <h6>Fri 27 Nov 2016</h6>
+                <p class="py-1">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Architecto, nihil.
+                </p>
+                <a href="#" class="btn">Buy Tickets</a>
+              </div>
             </div>
           </div>
         </div>
@@ -150,17 +148,20 @@
               </li>
             </ul>
           </div>
-          <form action="">
-            <div class="form-group">
-              <div class="col-1">
-                <label for="name"></label>
-                <input type="text" name="name" placeholder="Name" />
+
+          <div class="form-group">
+            <form action="">
+              <div class="col">
+                <div>
+                  <label for="name"></label>
+                  <input type="text" name="name" placeholder="Name" />
+                </div>
+                <div>
+                  <label for="email"></label>
+                  <input type="text" name="email" placeholder="Email" />
+                </div>
               </div>
-              <div class="col-1">
-                <label for="email"></label>
-                <input type="text" name="email" placeholder="Email" />
-              </div>
-              <div class="col-2">
+              <div>
                 <label for="messege"></label>
                 <textarea
                   name="messege"
@@ -168,9 +169,10 @@
                   placeholder="Messege"
                 ></textarea>
               </div>
-            </div>
-            <input type="button" value="Send" class="btn" />
-          </form>
+
+              <input type="button" value="Send" class="btn" />
+            </form>
+          </div>
         </div>
       </div>
       <div class="contact-image">
